@@ -16,7 +16,7 @@ int main(int argc, char const *argv[])
 
 	}else{
 
-		std::cout << "There are arguments:\n";
+		std::cout << "There are << argc << arguments:\n";
 
 		for (int i = 1; i < argc; ++i)
 		{
